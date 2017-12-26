@@ -1,0 +1,6 @@
+version: "2"
+services:
+  node:
+    image: "node:latest"
+    volumes:
+      - ./:/home/node/app
